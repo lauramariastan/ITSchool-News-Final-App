@@ -79,14 +79,14 @@ h3 {
   position: relative;
 }
 
-.icon-position {
+.scrollButton-position {
   position: fixed;
   bottom: 50px;
   right: 25px;
   z-index: 20;
 }
 
-.icon-style {
+.scrollButton-style {
   background-color: var(--bg-primary);
   border: 2px solid #2bb686;
   border-radius: 50%;
@@ -96,6 +96,10 @@ h3 {
   cursor: pointer;
   animation: movebutton 3s ease-in-out infinite;
   transition: all 0.5s ease-in-out;
+}
+
+.material-symbols-outlined {
+  font-size: 45px;
 }
 
 @keyframes movebutton {

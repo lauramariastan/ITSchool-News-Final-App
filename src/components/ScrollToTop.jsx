@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { FaAngleUp } from "react-icons/fa";
 import "../index.css";
 
 const ScrollToTop = () => {
@@ -24,7 +23,12 @@ const ScrollToTop = () => {
   return (
     <div className="scrollButton">
       {toTopBtn && (
-        <FaAngleUp className="icon-position icon-style" onClick={goToTop} />
+        <span
+          class="material-symbols-outlined scrollButton-position scrollButton-style"
+          onClick={goToTop}
+        >
+          arrow_drop_up
+        </span>
       )}
     </div>
   );
