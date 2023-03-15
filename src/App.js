@@ -1,3 +1,4 @@
+import "./index.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import NewsCategory from "./pages/NewsCategory";
@@ -6,7 +7,6 @@ import Favorites from "./pages/Favorites";
 import Page404 from "./pages/Page404";
 import { FavoritesProvider } from "./store/Favorites/context";
 import ScrollToTop from "./components/ScrollToTop";
-import "./index.css";
 
 function App() {
   return (

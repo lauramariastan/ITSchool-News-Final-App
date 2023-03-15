@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Page404.module.css";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+import styles from "./Page404.module.css";
 
 export const Page404 = () => {
   return (
