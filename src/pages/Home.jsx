@@ -122,10 +122,10 @@ export const Home = () => {
             favorites.
           </p>
           <p className="pb-3">
-            Visit the{" "}
+            Visit the
             <Link to="/favorites" className="text-success">
               Favorites
-            </Link>{" "}
+            </Link>
             section to see the added news.
           </p>
         </Container>

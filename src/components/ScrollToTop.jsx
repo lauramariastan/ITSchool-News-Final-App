@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "../index.css";
 
 const ScrollToTop = () => {
   const [toTopBtn, setToTopBtn] = useState(false);
